@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 10px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      margin-bottom: 20px;
+      text-align: center;
+      color: #444;
+    }
+    .bio img {
+      display: block;
+      margin: auto;
+      border-radius: 50%;
+      width: 150px;
+    }
+    .skills ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      list-style: none;
+      padding: 0;
+    }
+    .skills li {
+      background: #eaeaea;
+      padding: 10px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    footer a {
+      color: #ff9800;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <p>Web Developer | Designer | Learner</p>
+    <nav>
+      <ul>
+        <li><a href="#bio">Bio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="bio" class="bio">
+    <h2>About Me</h2>
+    <img src="IMG-20250907-WA00071.jpg" alt="Profile Picture">
+    <p>Hello! I am Junaid, a passionate web developer currently pursuing my BCA. I love building creative, modern, and responsive websites. I enjoy learning new technologies and applying them in real-world projects.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React.js</li>
+      <li>SQL</li>
+      <li>GitHub</li>
+    </ul>
+  </section>
+
+  <section id="experience" class="experience">
+    <h2>Experience</h2>
+    <p>Currently, I am gaining experience through internships and projects where I apply my web development knowledge to build real-world applications. I am actively working on improving my problem-solving and design skills.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:shamimansari9641@gmail.com">shamimansari9641@gmail.com</a></p>
+    <p>LinkedIn: <a href="http://linkedin.com/in/junaid-ansari-19b176262/" target="_blank">My LinkedIn</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Junaid | Made with ❤️</p>
+  </footer>
+</body>
+</html>
